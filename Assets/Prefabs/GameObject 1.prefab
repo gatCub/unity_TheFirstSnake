@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4715775301072428063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4715775301072428059}
+  - component: {fileID: 4715775301072428056}
+  - component: {fileID: 4715775301072428057}
+  - component: {fileID: 4715775301072428062}
+  m_Layer: 0
+  m_Name: GameObject 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4715775301072428059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715775301072428063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 13.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4715775301072428056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715775301072428063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3928fc6aac796ca49a53b269f471456b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Size: 13.16
+  foodPrefab: {fileID: 2787920920407079439, guid: ab2ef43a33e50234e83d0200d518d97a,
+    type: 3}
+  curFood: {fileID: 0}
+  LightFood: {fileID: 0}
+  LightPrefab: {fileID: 4565598600396940638, guid: cf4957abd8d11014980b4d17d2642861,
+    type: 3}
+  LightPos: {x: 0, y: 0, z: 0}
+  curPos: {x: 0, y: 0, z: 0}
+--- !u!114 &4715775301072428057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715775301072428063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0be25f457a3325499f2fd5f8f3b7ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  b: {fileID: 3293992451799410518, guid: acebe4ff8c35e624c96336c1fcb26766, type: 3}
+--- !u!114 &4715775301072428062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715775301072428063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5552fb93a63f224bae6973cfca68d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 9215910092894694587, guid: c3edc89b1bf676c41b5c5bc89dc7e490,
+    type: 3}
+  RecordText: {fileID: 4393387145707448159, guid: 04000a22bf9fe484e89670d938fbf812,
+    type: 3}
+  score: 1
+  Snake: {fileID: 0}
+  SnakeObjct: {fileID: 662673466914379904, guid: 196e95c6469c6b140862283e0d024caf,
+    type: 3}
